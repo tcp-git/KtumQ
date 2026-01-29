@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2CF88139-C6D0-40F4-8BB9-0B263205D903}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TerminalApp\TerminalApp.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CallerApp\CallerApp.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TerminalApp">
+        <MSBuild Projects="TerminalApp\TerminalApp.dproj"/>
+    </Target>
+    <Target Name="TerminalApp:Clean">
+        <MSBuild Projects="TerminalApp\TerminalApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TerminalApp:Make">
+        <MSBuild Projects="TerminalApp\TerminalApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CallerApp">
+        <MSBuild Projects="CallerApp\CallerApp.dproj"/>
+    </Target>
+    <Target Name="CallerApp:Clean">
+        <MSBuild Projects="CallerApp\CallerApp.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CallerApp:Make">
+        <MSBuild Projects="CallerApp\CallerApp.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TerminalApp;CallerApp"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TerminalApp:Clean;CallerApp:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TerminalApp:Make;CallerApp:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

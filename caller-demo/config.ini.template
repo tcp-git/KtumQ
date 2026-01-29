@@ -1,0 +1,10 @@
+[Database]
+Host=localhost
+Port=3306
+Username=root
+Password=
+DatabaseName=queue_system
+
+[WebSocket]
+ServerURL=localhost
+Port=8080

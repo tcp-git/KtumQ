@@ -1,0 +1,38 @@
+SOFTWARE LICENSE AGREEMENT
+Caller Queue Management System
+
+Copyright (c) 2024 Your Company Name. All rights reserved.
+
+GRANT OF LICENSE
+This software is licensed, not sold. Subject to the terms of this Agreement, 
+the Company grants you a limited, non-exclusive, non-transferable license to 
+use the Software solely for your internal business purposes.
+
+RESTRICTIONS
+You may not:
+- Copy, modify, or distribute the Software
+- Reverse engineer, decompile, or disassemble the Software
+- Remove or alter any proprietary notices or labels on the Software
+- Use the Software for any unlawful purpose
+
+DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE COMPANY BE LIABLE FOR ANY SPECIAL, INCIDENTAL, 
+INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER ARISING OUT OF THE USE OF 
+OR INABILITY TO USE THE SOFTWARE.
+
+TERMINATION
+This license is effective until terminated. Your rights under this license 
+will terminate automatically without notice if you fail to comply with any 
+term of this Agreement.
+
+GOVERNING LAW
+This Agreement shall be governed by and construed in accordance with the 
+laws of [Your Jurisdiction].
+
+By installing and using this software, you acknowledge that you have read 
+this Agreement, understand it, and agree to be bound by its terms and conditions.
